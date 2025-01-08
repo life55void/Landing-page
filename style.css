@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.top-section {
+  background-color: #1f2937;
+  color: whitesmoke;
+  padding: 20px 150px 100px 150px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 5px solid red; */
+}
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+ul a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.653);
+}
+
+.top-content {
+  display: flex;
+  margin-top: 40px;
+}
+
+.top-content > * {
+  flex: 1;
+  /* border: 3px solid red; */
+  /* padding: 20px; */
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+.sign-up {
+  background-color: #3882f6;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.img-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-content {
+  background-color: gray;
+  width: 350px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* section-1 styles */
+.card-img-holder {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #3882f6;
+  border-radius: 15px;
+}
+
+.section-1 {
+  /* padding: 20px 150px 100px 150px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.section-1 h2 {
+  margin-bottom: 20px;
+}
+
+.container-cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid red; */
+  text-align: center;
+}
+
+/* .section-2 */
+.section-2 {
+  background-color: #e5e7eb;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-wrapper {
+  width: 50%;
+}
+.author {
+  text-align: right;
+  font-weight: bold;
+  font-style: italic;
+  font-weight: 36px;
+  color: #1f2937;
+}
+
+/* Section-3 */
+.section-3 {
+  /* border: 2px solid red; */
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.secwrapper {
+  background-color: #3882f6;
+  color: white;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px 60px;
+  border-radius: 8px;
+}
+
+.sign-up-2 {
+  /* flex-shrink: 0; */
+  background-color: #3882f6;
+  border: 2px solid white;
+  color: white;
+  padding: 5px 30px;
+  border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+  background-color: #1f2937;
+  color: white;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
